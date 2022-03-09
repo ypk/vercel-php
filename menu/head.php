@@ -1444,7 +1444,7 @@
         display: inline-block;
     }
 
-    li span.chilly-1 {
+    li span.chilly-1, span.mild {
         width: 16px;
         height: 16px;
         display: inline-block;
@@ -1453,7 +1453,7 @@
         margin-right: 5px;
     }
 
-    li span.chilly-2 {
+    li span.chilly-2, span.medium  {
         width: 26px;
         height: 16px;
         display: inline-block;
@@ -1462,7 +1462,7 @@
         margin-right: 5px;
     }
 
-    li span.chilly-2 {
+    li span.chilly-2, span.medium {
         width: 26px;
         height: 16px;
         display: inline-block;
@@ -1471,7 +1471,7 @@
         margin-right: 5px;
     }
 
-    li span.chilly-3 {
+    li span.chilly-3, span.hot {
         width: 36px;
         height: 16px;
         display: inline-block;
