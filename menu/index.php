@@ -2385,7 +2385,7 @@
                                         <h2><?php echo $section->sectionName; ?></h2>
                                         <p><?php echo $section->sectionDescription; ?></p>
                                         <ul class="row">
-                                            <li class="col-md-6 col-12">
+                                            <li class="col-12">
                                                 <?php
                                                     foreach ($section->sectionItems as $items) {
                                                 ?>
