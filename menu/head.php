@@ -1448,7 +1448,7 @@
         width: 16px;
         height: 16px;
         display: inline-block;
-        background-image: url(../images/chilly1.png);
+        background-image: url(https://i.imgur.com/5IRfmra.png);
         background-size: 16px 16px;
         margin-right: 5px;
     }
@@ -1457,7 +1457,7 @@
         width: 26px;
         height: 16px;
         display: inline-block;
-        background-image: url(../images/chilly2.png);
+        background-image: url(https://i.imgur.com/SFXXODX.png);
         background-size: 26px 16px;
         margin-right: 5px;
     }
@@ -1466,7 +1466,7 @@
         width: 26px;
         height: 16px;
         display: inline-block;
-        background-image: url(../images/chilly2.png);
+        background-image: url(https://i.imgur.com/SFXXODX.png);
         background-size: 26px 16px;
         margin-right: 5px;
     }
@@ -1475,7 +1475,7 @@
         width: 36px;
         height: 16px;
         display: inline-block;
-        background-image: url(../images/chilly3.png);
+        background-image: url(https://i.imgur.com/NvGD5aJ.png);
         background-size: 36px 16px;
         margin-right: 5px;
     }
@@ -1484,7 +1484,7 @@
         width: 16px;
         height: 16px;
         display: inline-block;
-        background-image: url(../images/veg.png);
+        background-image: url(https://i.imgur.com/v8cpiE3.png);
         background-size: 16px 16px;
         margin-right: 5px;
     }
@@ -1493,7 +1493,7 @@
         width: 16px;
         height: 16px;
         display: inline-block;
-        background-image: url(../images/almond.png);
+        background-image: url(https://i.imgur.com/PI5oXn3.png);
         background-size: 16px 16px;
         margin-right: 5px;
     }

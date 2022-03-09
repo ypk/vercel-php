@@ -458,6 +458,19 @@
             ]
         },
         {
+            "sectionName": "Biryani Dishes",
+            "sectionDescription": "",
+            "sectionItems": [{
+                "itemName": "Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
+                "itemVariant": [
+                    
+                ]
+            }]
+        },
+        {
             "sectionName": "Side Dishes",
             "sectionDescription": "",
             "sectionItems": [
