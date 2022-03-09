@@ -2401,7 +2401,7 @@
                                                                 <?php echo $items->itemName; ?>
                                                                 &nbsp;
                                                                 <?php
-                                                                    if ($items->itemSpiceInfo) {
+                                                                    if ($items->itemAllergenInfo) {
                                                                         echo getAllergenAndSpiceInfo($items->itemAllergenInfo);
                                                                     }
                                                                     if ($items->itemSpiceInfo) {
