@@ -459,6 +459,61 @@
             ]
         },
         {
+            "sectionName": "Biryani Dishes",
+            "sectionDescription": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
+            "sectionItems": [
+            {
+                "itemName": "Chicken Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "",
+                "itemPrice": "8.95"
+            },
+            {
+                "itemName": "Lamb  Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "",
+                "itemPrice": "8.95"
+            },
+            {
+                "itemName": "King Prawn Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "",
+                "itemPrice": "13.95"
+            },
+            {
+                "itemName": "Chicken Tikka Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "",
+                "itemPrice": "9.95"
+            },
+            {
+                "itemName": "Lamb Tikka Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "",
+                "itemPrice": "9.95"
+            },
+            {
+                "itemName": "Vegetable Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "",
+                "itemPrice": "7.95"
+            },
+            {
+                "itemName": "Special Mixed Biryani",
+                "itemAllergenInfo": "",
+                "itemSpiceInfo": [],
+                "itemDescription": "",
+                "itemPrice": "10.95"
+            }
+            ]
+        },
+        {
             "sectionName": "Side Dishes",
             "sectionDescription": "",
             "sectionItems": [
