@@ -466,7 +466,7 @@
                 "itemSpiceInfo": [],
                 "itemDescription": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
                 "itemVariant": [
-                    
+                    "itemName": "Biryani",
                 ]
             }]
         },
@@ -2407,7 +2407,7 @@
                                                                 <?php echo $items->itemName; ?>
                                                                 &nbsp;
                                                                 <?php
-                                                                    if ($items->itemSpiceInfo) {
+                                                                    if ($items->itemAllergenInfo) {
                                                                         echo getAllergenAndSpiceInfo($items->itemAllergenInfo);
                                                                     }
                                                                     if ($items->itemSpiceInfo) {
