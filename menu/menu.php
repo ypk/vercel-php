@@ -1,5 +1,4 @@
 <?php
-header('content-type: text/html');
     $page = basename($_SERVER['SCRIPT_NAME']);
 
     $menu_json = '{
