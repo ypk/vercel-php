@@ -1,4 +1,5 @@
 <?php
+
     $page = basename($_SERVER['SCRIPT_NAME']);
 
     $menu_json = '{
@@ -456,19 +457,6 @@
                 "itemPrice": "10.95"
             }
             ]
-        },
-        {
-            "sectionName": "Biryani Dishes",
-            "sectionDescription": "",
-            "sectionItems": [{
-                "itemName": "Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
-                "itemVariant": [
-                    "itemName": "Biryani",
-                ]
-            }]
         },
         {
             "sectionName": "Side Dishes",
@@ -2359,6 +2347,12 @@
     <title>Our Menu - Everest Spice Bristol</title>
     <meta name="description" content=" ">
     <?php include('head.php'); ?>
+
+<script src="http://www.everestspicebristol.co.uk/bootstrap/js/bootstrap.js"></script>
+<link href="http://www.everestspicebristol.co.uk/bootstrap/css/bootstrap.css" rel="stylesheet" />
+<link href="http://www.everestspicebristol.co.uk/font-awesome/css/all.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Varela+Round&display=swap" rel="stylesheet"> 
+<link href="http://www.everestspicebristol.co.uk/css/style.css" rel="stylesheet" /></head>
 </head>
 
 <body>
@@ -2398,7 +2392,7 @@
                                         <h2><?php echo $section->sectionName; ?></h2>
                                         <p><?php echo $section->sectionDescription; ?></p>
                                         <ul class="row">
-                                            <li class="col-12">
+                                            <li class="col-md-6 col-12">
                                                 <?php
                                                     foreach ($section->sectionItems as $items) {
                                                 ?>
@@ -2407,7 +2401,7 @@
                                                                 <?php echo $items->itemName; ?>
                                                                 &nbsp;
                                                                 <?php
-                                                                    if ($items->itemAllergenInfo) {
+                                                                    if ($items->itemSpiceInfo) {
                                                                         echo getAllergenAndSpiceInfo($items->itemAllergenInfo);
                                                                     }
                                                                     if ($items->itemSpiceInfo) {
