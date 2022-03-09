@@ -2377,7 +2377,7 @@
                             foreach ($menu->sections as $section) {
                                 if($column_count % 2) {
                     ?>
-                                    <div class="col-sm-6">
+                                    <div class="col-12 col-md-6">
                     <?php
                                 }
                     ?>
