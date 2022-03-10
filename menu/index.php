@@ -470,7 +470,7 @@
                 "spiceInfo": [],
                 "description": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
                 "price": "",
-                "itemVariants": [
+                "variants": [
                     {
                         "name": "Chicken",
                         "price": "8.95"
@@ -2492,9 +2492,26 @@
                                                                     }
                                                             ?>
                                                         </div>
-                                                        <!-- wtrite code here itemVariants -->
-                                                        
                                                 <?php
+                                                        if (isset($items->variants)) {
+                                                            foreach ($items->variants as $variants) {
+                                                ?>
+                                                                <div class="menuItem">
+                                                                    <h4>
+                                                                        <?php echo $variants->name; ?>
+                                                                    </h4>
+                                                                    <?php
+                                                                        if (isset($variants->description)) {
+                                                                            echo "<div class='menuDesc'>{$variants->description}</div>";
+                                                                        }
+                                                                        if (isset($variants->price)) {
+                                                                            echo "<div class='price'>{$variants->price}</div>";
+                                                                        }
+                                                                    ?>
+                                                                </div>
+                                                <?php
+                                                            }
+                                                        }
                                                     }
                                                 ?>
                                             </li>
