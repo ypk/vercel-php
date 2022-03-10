@@ -2469,11 +2469,11 @@
                                                                 <?php echo $items->name; ?>
                                                                 &nbsp;
                                                                 <?php
-                                                                    if ($items->allergenInfo) {
+                                                                    if (isset($items->allergenInfo)) {
                                                                         echo getAllergenAndSpiceInfo($items->allergenInfo);
                                                                     }
-                                                                    if ($items->spiceInfo) {
-                                                                        if($items->multipleSpiceOptions){
+                                                                    if (isset($items->spiceInfo)) {
+                                                                        if(isset($items->multipleSpiceOptions)){
                                                                             echo getAllergenAndSpiceInfo($items->spiceInfo, $items->multipleSpiceOptions);
                                                                         } else {
                                                                             echo getAllergenAndSpiceInfo($items->spiceInfo);
@@ -2482,10 +2482,10 @@
                                                                 ?>
                                                             </h4>
                                                             <?php
-                                                                    if ($items->description) {
+                                                                    if (isset($items->description)) {
                                                                         echo "<div class='menuDesc'>{$items->description}</div>";
                                                                     }
-                                                                    if ($items->price) {
+                                                                    if (isset($items->price)) {
                                                                         echo "<div class='price'>{$items->price}</div>";
                                                                     }
                                                             ?>
