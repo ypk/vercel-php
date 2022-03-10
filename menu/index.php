@@ -518,7 +518,7 @@ $menu_json = '{
             ]
         },
         {
-            "name": "Chef&lquot;s Specialities",
+            "name": "Chef\'s Specialities",
             "description": "",
             "items": [
                 {
@@ -787,7 +787,7 @@ $menu_json = '{
                 "allergenInfo": "",
                 "spiceInfo": [],
                 "description": "",
-                "price": "8.25"
+                "price": ""
             },
             {
                 "name": "Bombay",
@@ -828,40 +828,6 @@ $menu_json = '{
                         "price": "7.95"
                     }
                     ]
-            }
-            ]
-        },
-        {
-            "name": "Desserts",
-            "description": "",
-            "items": [
-            {
-                "name": "Handmade Carrot Cake",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "4.49"
-            },
-            {
-                "name": "Chocolate Fudge Cake",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "4.49"
-            },
-            {
-                "name": "Sticky Chocolate & Orange Cake",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "4.49"
-            },
-            {
-                "name": "Ben & Jerry 500ML",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "6.99"
             }
             ]
         },
@@ -1081,6 +1047,40 @@ $menu_json = '{
                 "spiceInfo": [],
                 "description": "",
                 "price": "0.80"
+            }
+            ]
+        },
+        {
+            "name": "Desserts",
+            "description": "",
+            "items": [
+            {
+                "name": "Handmade Carrot Cake",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "4.49"
+            },
+            {
+                "name": "Chocolate Fudge Cake",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "4.49"
+            },
+            {
+                "name": "Sticky Chocolate & Orange Cake",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "4.49"
+            },
+            {
+                "name": "Ben & Jerry 500ML",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "6.99"
             }
             ]
         },
