@@ -1,8 +1,8 @@
 <?php
 
-    $page = basename($_SERVER['SCRIPT_NAME']);
+$page = basename($_SERVER['SCRIPT_NAME']);
 
-    $menu_json = '{
+$menu_json = '{
         "sections": [
         {
             "name": "Appetisers",
@@ -518,712 +518,151 @@
             ]
         },
         {
-            "name": "Chef&quot;s Specialities",
+            "name": "Chef&lquot;s Specialities",
             "description": "",
             "items": [
-            {
-                "name": "Chicken Tandoori Butter",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken cooked with butter and fresh cream in a thick mild sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Tandoori Butter",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb cooked with butter and fresh cream in a thick mild sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Tandoori Butter",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "King Prawns cooked with butter and fresh cream in a thick mild sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Tandoori Butter",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken Tikka cooked with butter and fresh cream in a thick mild sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Tandoori Butter",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb Tikka cooked with butter and fresh cream in a thick mild sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Tandoori Butter",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Vegetables cooked with butter and fresh cream in a thick mild sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Passanda",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Passanda",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Passanda",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "King Prawns cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Passanda",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken Tikka cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Passanda",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb Tikka cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Passanda",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Vegetables cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Massala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken cooked with almonds and coconuts in a aromatic mild sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Massala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb cooked with almonds and coconuts in a aromatic mild sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Massala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "King Prawns cooked with almonds and coconuts in a aromatic mild sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Massala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken Tikka cooked with almonds and coconuts in a aromatic mild sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Massala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb Tikka cooked with almonds and coconuts in a aromatic mild sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Massala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Vegetables cooked with almonds and coconuts in a aromatic mild sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Karahi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Karahi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Karahi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "King Prawns cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Karahi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken Tikka cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Karahi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb Tikka cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Karahi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Vegetables cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Rezzala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Rezzala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Rezzala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "King Prawns cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Rezzala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Chicken Tikka cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Rezzala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Lamb Tikka cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Rezzala",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "Vegetables cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Garlic Chilli",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Garlic Chilli",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Garlic Chilli",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "King Prawns cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Garlic Chilli",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken Tikka cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Garlic Chilli",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb Tikka cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Garlic Chilli",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Vegetables cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Jalferazi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Jalferazi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Jalferazi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "King Prawns cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Jalferazi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken Tikka cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Jalferazi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb Tikka cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Jalferazi",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Vegetables cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Jaipuri",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Jaipuri",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Jaipuri",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "King Prawns cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Jaipuri",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken Tikka cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Jaipuri",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb Tikka cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Jaipuri",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Vegetables cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Nihari",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Nihari",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Nihari",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "King Prawns cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Nihari",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken Tikka cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Nihari",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb Tikka cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Nihari",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Vegetables cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Burkani",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Burkani",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Burkani",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "King Prawns cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Burkani",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken Tikka cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Burkani",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb Tikka cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Burkani",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Vegetables cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Hara",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Hara",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Hara",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "King Prawns cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Hara",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken Tikka cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Hara",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb Tikka cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Hara",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Vegetables cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Pudina",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Pudina",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Pudina",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "King Prawns cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Pudina",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Chicken Tikka cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Pudina",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Lamb Tikka cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Pudina",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "Vegetables cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Naga",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken cooked in bhuna style with very hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Naga",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb cooked in bhuna style with very hot sauce",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawns Naga",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "King Prawns cooked in bhuna style with very hot sauce",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Naga",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Chicken Tikka cooked in bhuna style with very hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Naga",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Lamb Tikka cooked in bhuna style with very hot sauce",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Naga",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "Vegetables cooked in bhuna style with very hot sauce",
-                "price": "7.95"
-            }
-            ]
+                {
+                    "name": "Tandoori Butter",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Mild"
+                    ],
+                    "description": "Cooked with butter and fresh cream in a thick mild sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Passanda",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Mild"
+                    ],
+                    "description": "Cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Massala",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Mild"
+                    ],
+                    "description": "Cooked with almonds and coconuts in a aromatic mild sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Karahi",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Mild"
+                    ],
+                    "description": "Cooked with onions, peppers tomatoes and ginger in a medium sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Rezzala",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Mild"
+                    ],
+                    "description": "Vegetables cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Garlic Chilli",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Hot"
+                    ],
+                    "description": "Cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Jalferazi",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Hot"
+                    ],
+                    "description": "Cooked with onions peppers and fresh green chillies in a fairly hot sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Jaipuri",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Medium"
+                    ],
+                    "description": "Cooked with mushrooms, peppers, and spring onions in a medium sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Nihari",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Medium"
+                    ],
+                    "description": "Cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Burkani",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Hot"
+                    ],
+                    "description": "Cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Hara",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Medium"
+                    ],
+                    "description": "Cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Pudina",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Medium"
+                    ],
+                    "description": "Cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
+                    "price": ""
+                },
+                {
+                    "name": "Naga",
+                    "allergenInfo": [],
+                    "spiceInfo": [
+                    "Hot"
+                    ],
+                    "description": "Cooked in bhuna style with very hot sauce",
+                    "price": ""
+                }
+            ],
+            "variants": [{
+                    "name": "Chicken",
+                    "price": "8.25"
+                },
+                {
+                    "name": "Lamb",
+                    "price": "8.25"
+                },
+                {
+                    "name": "King Prawns",
+                    "price": "13.95"
+                },
+                {
+                    "name": "Chicken Tikka",
+                    "price": "8.95"
+                },
+                {
+                    "name": "Lamb Tikka",
+                    "price": "8.95"
+                },
+                {
+                    "name": "Vegetables",
+                    "price": "7.95"
+                }]
         },
         {
             "name": "Traditional Dishes",
@@ -1348,7 +787,7 @@
                 "allergenInfo": "",
                 "spiceInfo": [],
                 "description": "",
-                "price": ""
+                "price": "8.25"
             },
             {
                 "name": "Bombay",
@@ -1678,30 +1117,31 @@
             }
             ]
         }
-        ]}';
+    ]}';
 
-    function getAllergenAndSpiceInfo($items, $multipleSpiceOptions = false) {
-        $allergenAndSpiceInfo = "";
-        if (is_array($items)) {
-            $counter = 0;
-            foreach ($items as $key => $item) {
-                $allergenAndSpiceItem = strtolower($item);
+function getAllergenAndSpiceInfo($items, $multipleSpiceOptions = false)
+{
+    $allergenAndSpiceInfo = "";
+    if (is_array($items)) {
+        $counter = 0;
+        foreach ($items as $key => $item) {
+            $allergenAndSpiceItem = strtolower($item);
 
-                $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
-                
-                if($multipleSpiceOptions && !($key === array_key_last($items))) {
-                    $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
-                }
-                $counter++;
+            $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
+
+            if ($multipleSpiceOptions && !($key === array_key_last($items))) {
+                $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
             }
+            $counter++;
         }
-        return $allergenAndSpiceInfo;
     }
+    return $allergenAndSpiceInfo;
+}
 
-    $menu = json_decode($menu_json);
-    $menu_error = json_last_error();
+$menu = json_decode($menu_json);
+$menu_error = json_last_error();
 
-    $column_count = 1;
+$column_count = 1;
 
 ?>
 
@@ -1714,11 +1154,12 @@
     <meta name="description" content=" ">
     <?php include('head.php'); ?>
 
-<script src="http://www.everestspicebristol.co.uk/bootstrap/js/bootstrap.js"></script>
-<link href="http://www.everestspicebristol.co.uk/bootstrap/css/bootstrap.css" rel="stylesheet" />
-<link href="http://www.everestspicebristol.co.uk/font-awesome/css/all.css" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Varela+Round&display=swap" rel="stylesheet"> 
-<link href="http://www.everestspicebristol.co.uk/css/style.css" rel="stylesheet" /></head>
+    <script src="http://www.everestspicebristol.co.uk/bootstrap/js/bootstrap.js"></script>
+    <link href="http://www.everestspicebristol.co.uk/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="http://www.everestspicebristol.co.uk/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="http://www.everestspicebristol.co.uk/css/style.css" rel="stylesheet" />
+</head>
 </head>
 
 <body>
@@ -1743,91 +1184,91 @@
     <div class="page">
         <div class="container">
             <div class="row">
-                    <?php
-                        if ($menu === null && $menu_error === "JSON_ERROR_UTF8") {
-                            echo "Menu Temporarily Unavailable. Please try again later.";
-                        } else {
-                            foreach ($menu->sections as $section) {
-                                if($column_count % 2) {
-                    ?>
-                                    <div class="col-12 col-md-6">
-                    <?php
-                                }
-                    ?>
-                                    <div class="menuBlock">
-                                        <h2><?php echo $section->name; ?></h2>
-                                        <p><?php echo $section->description; ?></p>
-                                        <ul class="row">
-                                            <li class="col-12">
-                                                <?php
-                                                    foreach ($section->items as $items) {
-                                                ?>
-                                                        <div class="menuItem <?php echo isset($items->variants) ? 'menuVariants' : '' ?>">
-                                                            <h4>
-                                                                <?php echo $items->name; ?>
-                                                                &nbsp;
-                                                                <?php
-                                                                    if (isset($items->allergenInfo)) {
-                                                                        echo getAllergenAndSpiceInfo($items->allergenInfo);
-                                                                    }
-                                                                    if (isset($items->spiceInfo)) {
-                                                                        if(isset($items->multipleSpiceOptions)){
-                                                                            echo getAllergenAndSpiceInfo($items->spiceInfo, $items->multipleSpiceOptions);
-                                                                        } else {
-                                                                            echo getAllergenAndSpiceInfo($items->spiceInfo);
-                                                                        }
-                                                                    }
-                                                                ?>
-                                                            </h4>
-                                                            <?php
-                                                                    if (isset($items->description)) {
-                                                                        echo "<div class='menuDesc'>{$items->description}</div>";
-                                                                    }
-                                                                    if (isset($items->price)) {
-                                                                        echo "<div class='price'>{$items->price}</div>";
-                                                                    }
-                                                            ?>
-                                                        </div>
-                                                <?php
-                                                        if (isset($items->variants)) {
-                                                ?>
-                                                            <h4 class="variant-heading">All Dishes available in:</h4>
-                                                <?php
-                                                        foreach ($items->variants as $variants) {
-                                                ?>
-                                                                <div class="menuItem">
-                                                                    <h4>
-                                                                        <?php echo $variants->name; ?>
-                                                                    </h4>
-                                                                    <?php
-                                                                        if (isset($variants->description)) {
-                                                                            echo "<div class='menuDesc'>{$variants->description}</div>";
-                                                                        }
-                                                                        if (isset($variants->price)) {
-                                                                            echo "<div class='price'>{$variants->price}</div>";
-                                                                        }
-                                                                    ?>
-                                                                </div>
-                                                <?php
-                                                            }
+                <?php
+                if ($menu === null && $menu_error === "JSON_ERROR_UTF8") {
+                    echo "Menu Temporarily Unavailable. Please try again later.";
+                } else {
+                    foreach ($menu->sections as $section) {
+                        if ($column_count % 2) {
+                ?>
+                            <div class="col-12 col-md-6">
+                            <?php
+                        }
+                            ?>
+                            <div class="menuBlock">
+                                <h2><?php echo $section->name; ?></h2>
+                                <p><?php echo $section->description; ?></p>
+                                <ul class="row">
+                                    <li class="col-12">
+                                        <?php
+                                        foreach ($section->items as $items) {
+                                        ?>
+                                            <div class="menuItem <?php echo isset($items->variants) ? 'menuVariants' : '' ?>">
+                                                <h4>
+                                                    <?php echo $items->name; ?>
+                                                    &nbsp;
+                                                    <?php
+                                                    if (isset($items->allergenInfo)) {
+                                                        echo getAllergenAndSpiceInfo($items->allergenInfo);
+                                                    }
+                                                    if (isset($items->spiceInfo)) {
+                                                        if (isset($items->multipleSpiceOptions)) {
+                                                            echo getAllergenAndSpiceInfo($items->spiceInfo, $items->multipleSpiceOptions);
+                                                        } else {
+                                                            echo getAllergenAndSpiceInfo($items->spiceInfo);
                                                         }
                                                     }
+                                                    ?>
+                                                </h4>
+                                                <?php
+                                                if (isset($items->description)) {
+                                                    echo "<div class='menuDesc'>{$items->description}</div>";
+                                                }
+                                                if (isset($items->price)) {
+                                                    echo "<div class='price'>{$items->price}</div>";
+                                                }
                                                 ?>
-                                            </li>
-                                        </ul>
-                                    </div>
-                    <?php
-                                if($column_count % 2) {
-                    ?>
-                                    </div>
-                    <?php
-                                }                                
+                                            </div>
+                                            <?php
+                                            if (isset($items->variants)) {
+                                            ?>
+                                                <h4 class="variant-heading">All Dishes available in:</h4>
+                                                <?php
+                                                foreach ($items->variants as $variants) {
+                                                ?>
+                                                    <div class="menuItem">
+                                                        <h4>
+                                                            <?php echo $variants->name; ?>
+                                                        </h4>
+                                                        <?php
+                                                        if (isset($variants->description)) {
+                                                            echo "<div class='menuDesc'>{$variants->description}</div>";
+                                                        }
+                                                        if (isset($variants->price)) {
+                                                            echo "<div class='price'>{$variants->price}</div>";
+                                                        }
+                                                        ?>
+                                                    </div>
+                                        <?php
+                                                }
+                                            }
+                                        }
+                                        ?>
+                                    </li>
+                                </ul>
+                            </div>
+                            <?php
+                            if ($column_count % 2) {
+                            ?>
+                            </div>
+                <?php
                             }
                         }
-                    ?>
-                </div>
+                    }
+                ?>
             </div>
         </div>
+    </div>
     </div>
 
     <div id="footer">
