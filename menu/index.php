@@ -541,7 +541,7 @@ $menu_json = '{
                 },
                 {
                   "name": "Panner",
-                  "price": "£8.25"
+                  "price": "8.25"
                 },
                 {
                   "name": "Prawns",
@@ -682,7 +682,7 @@ $menu_json = '{
               },
               {
                 "name": "Panner",
-                "price": "£8.25"
+                "price": "8.25"
               },
               {
                 "name": "Prawns",
@@ -1053,7 +1053,7 @@ $menu_error = json_last_error();
                                                             echo "<div class='menuDesc'>{$variants->description}</div>";
                                                         }
                                                         if (isset($variants->price)) {
-                                                            echo "<div class='price'>{$variants->price}</div>";
+                                                            echo "<div class='price'>&pound;{$variants->price}</div>";
                                                         }
                                                         ?>
                                                     </div>
