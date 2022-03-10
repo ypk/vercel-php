@@ -2377,7 +2377,9 @@
                 }
 
                 $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
-
+                
+                echo $allergenAndSpiceItem . "&nbsp ".$hasMultipleSpice;
+                
                 if($hasMultipleSpice) {
                     $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
                 }
