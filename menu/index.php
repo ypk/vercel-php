@@ -20,14 +20,12 @@ function getAllergenAndSpiceInfo($items, $multipleSpiceOptions = false)
 {
     $allergenAndSpiceInfo = "";
     if (is_array($items)) {
-        $counter = 0;
         foreach ($items as $key => $item) {
             $allergenAndSpiceItem = strtolower($item);
             $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
             if ($multipleSpiceOptions && !($key === array_key_last($items))) {
                 $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
             }
-            $counter++;
         }
     }
     return $allergenAndSpiceInfo;
