@@ -3,7 +3,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 $column_count = 1;
 
-$menu_json = file_get_contents("menu.json");
+$menu_json = file_get_contents("./menu.json");
 $menu = json_decode($menu_json, true);
 
 echo $menu_json;
