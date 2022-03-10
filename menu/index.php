@@ -2473,7 +2473,11 @@
                                                                         echo getAllergenAndSpiceInfo($items->allergenInfo);
                                                                     }
                                                                     if ($items->spiceInfo) {
-                                                                        echo getAllergenAndSpiceInfo($items->spiceInfo, $items->multipleSpiceOptions);
+                                                                        if($items->multipleSpiceOptions){
+                                                                            echo getAllergenAndSpiceInfo($items->spiceInfo, $items->multipleSpiceOptions);
+                                                                        } else {
+                                                                            echo getAllergenAndSpiceInfo($items->spiceInfo);
+                                                                        }
                                                                     }
                                                                 ?>
                                                             </h4>
