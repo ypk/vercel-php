@@ -1762,7 +1762,7 @@
                                                 <?php
                                                     foreach ($section->items as $items) {
                                                 ?>
-                                                        <div class="menuItem <?php if($items->variants) echo 'menuVariants'; ?>">
+                                                        <div class="menuItem <?php echo isset($items->variants) ? 'menuVariants' : '' ?>">
                                                             <h4>
                                                                 <?php echo $items->name; ?>
                                                                 &nbsp;
