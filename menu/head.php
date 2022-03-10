@@ -1518,6 +1518,10 @@
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
     }
 
+    .menu-variant {
+        margin: 32px auto;
+    }
+
     /* --- Settings
 Title Font: font-family: 'Varela Round', sans-serif;
 Text Font: font-family: 'Open Sans', sans-serif;

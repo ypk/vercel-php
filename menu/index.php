@@ -1791,7 +1791,7 @@
                                                 <?php
                                                         if (isset($items->variants)) {
                                                 ?>
-                                                            <h4>All Dishes available in:</h4>
+                                                            <h4 class="menu-variant">All Dishes available in:</h4>
                                                 <?php
                                                         foreach ($items->variants as $variants) {
                                                 ?>
