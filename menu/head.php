@@ -1519,8 +1519,8 @@
     }
 
     .menuVariants {
-        border: 0px;
-        margin-bottom: 16px;
+        border: 0px !important;
+        margin-bottom: 16px !important;
     }
     .variant-heading {
         margin: 32px auto;

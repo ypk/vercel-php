@@ -1348,7 +1348,7 @@
                 "allergenInfo": "",
                 "spiceInfo": [],
                 "description": "",
-                "price": "8.25"
+                "price": ""
             },
             {
                 "name": "Bombay",
