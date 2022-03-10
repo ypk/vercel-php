@@ -2388,13 +2388,12 @@
         $allergenAndSpiceInfo = "";
         if (is_array($items)) {
             $counter = 0;
-            $itemCount = count($items);
-            foreach ($items as $item) {
+            foreach ($items as $key => $item) {
                 $allergenAndSpiceItem = strtolower($item);
 
                 $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
                 
-                if($multipleSpiceOptions && $itemCount > $counter) {
+                if($multipleSpiceOptions && !($key === array_key_last($items))) {
                     $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
                 }
                 $counter++;
