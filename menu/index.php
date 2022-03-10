@@ -467,7 +467,38 @@
                 "itemAllergenInfo": "",
                 "itemSpiceInfo": [],
                 "itemDescription": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
-                "itemPrice": ""
+                "itemPrice": "",
+                "itemVariants": [
+                    {
+                        "itemName": "Chicken",
+                        "itemPrice": "8.95"
+                    },
+                    {
+                        "itemName": "Lamb",
+                        "itemPrice": "8.95"
+                    },
+                    {
+                        "itemName": "King Prawn",
+                        "itemPrice": "13.95"
+                    },
+                    {
+                        "itemName": "Chicken Tikka",
+                        "itemPrice": "9.95"
+                    },
+                    {
+                        "itemName": "Lamb Tikka",
+                        "itemPrice": "9.95"
+                    },
+                    {
+                        "itemName": "Vegetable",
+                        "itemPrice": "7.95"
+                    },
+                    {
+                        "itemName": "Special Mixed",
+                        "itemDescription": "With Chicken, Lamb & Prawn",
+                        "itemPrice": "10.95"
+                    }
+                ]
             }]
         },
         {
@@ -2334,11 +2365,22 @@
         ]}';
 
     function getAllergenAndSpiceInfo($items) {
+        $spiceRange = ["Mild", "Medium", "Hot"];
+        $hasMultipleSpice = false;
         $allergenAndSpiceInfo = "";
         if (is_array($items)) {
             foreach ($items as $item) {
                 $allergenAndSpiceItem = strtolower($item);
+
+                if(in_array($allergenAndSpiceItem, $spiceRange)) {
+                    $hasMultipleSpice = true;
+                }
+
                 $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
+
+                if($hasMultipleSpice) {
+                    $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
+                }
             }
         }
         return $allergenAndSpiceInfo;
@@ -2430,6 +2472,8 @@
                                                                     }
                                                             ?>
                                                         </div>
+                                                        <!-- wtrite code here itemVariants -->
+                                                        
                                                 <?php
                                                     }
                                                 ?>
