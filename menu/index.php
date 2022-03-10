@@ -5,2382 +5,2394 @@
     $menu_json = '{
         "sections": [
         {
-            "sectionName": "Appetisers",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Appetisers",
+            "description": "",
+            "items": [
             {
-                "itemName": "Aloo Chat Puree",
-                "itemAllergenInfo": [
-                "Celeriac",
-                "Gluten"
+                "name": "Aloo Chat Puree",
+                    "allergenInfo": [
+                    "Celeriac",
+                    "Gluten"
                 ],
-                "itemSpiceInfo": [
-                "Mild"
+                "spiceInfo": [
+                    "Mild"
                 ],
-                "itemDescription": "",
-                "itemPrice": "4.50"
+                "description": "",
+                "price": "4.50"
             },
             {
-                "itemName": "Prawn Puree",
-                "itemAllergenInfo": [
+                "name": "Prawn Puree",
+                "allergenInfo": [
                 "Celeriac",
                 "Gluten"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Succulent prawns, spiced, served with a puree",
-                "itemPrice": "4.50"
+                "multipleSpiceOptions": true,
+                "description": "Succulent prawns, spiced, served with a puree",
+                "price": "4.50"
             },
             {
-                "itemName": "Chicken Chat",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Chat",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild",
                 "Medium"
                 ],
-                "itemDescription": "Chicken cooked with cucumber in special spices known as Chat Masala",
-                "itemPrice": "4.50"
+                "multipleSpiceOptions": true,
+                "description": "Chicken cooked with cucumber in special spices known as Chat Masala",
+                "price": "4.50"
             },
             {
-                "itemName": "Onion Bhaji",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Onion Bhaji",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Sliced onion mixed with gram flour and herbs, deep fried",
-                "itemPrice": "2.50"
+                "description": "Sliced onion mixed with gram flour and herbs, deep fried",
+                "price": "2.50"
             },
             {
-                "itemName": "Samossa Chicken",
-                "itemAllergenInfo": [
+                "name": "Samossa Chicken",
+                "allergenInfo": [
                 "Gluten"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Traditional triangle pastry served with tamarind sauce",
-                "itemPrice": "3.45"
+                "description": "Traditional triangle pastry served with tamarind sauce",
+                "price": "3.45"
             },
             {
-                "itemName": "Samossa Veg",
-                "itemAllergenInfo": [
+                "name": "Samossa Veg",
+                "allergenInfo": [
                 "Gluten"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Traditional triangle pastry served with tamarind sauce",
-                "itemPrice": "3.45"
+                "description": "Traditional triangle pastry served with tamarind sauce",
+                "price": "3.45"
             },
             {
-                "itemName": "Mix Kebab",
-                "itemAllergenInfo": [
+                "name": "Mix Kebab",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken Tikka, Lamb Tikka, sheik Kebab",
-                "itemPrice": "4.50"
+                "description": "Chicken Tikka, Lamb Tikka, sheik Kebab",
+                "price": "4.50"
             },
             {
-                "itemName": "Tandoori Chicken",
-                "itemAllergenInfo": [
+                "name": "Tandoori Chicken",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Spring Chicken marinated in special recipe and barbecued in clay oven",
-                "itemPrice": "4.50"
+                "description": "Spring Chicken marinated in special recipe and barbecued in clay oven",
+                "price": "4.50"
             },
             {
-                "itemName": "Chicken Tikka",
-                "itemAllergenInfo": [
+                "name": "Chicken Tikka",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Boneless chicken marinated in a special recipe and barbecued in the clay oven",
-                "itemPrice": "4.50"
+                "description": "Boneless chicken marinated in a special recipe and barbecued in the clay oven",
+                "price": "4.50"
             },
             {
-                "itemName": "Lamb Tikka",
-                "itemAllergenInfo": [
+                "name": "Lamb Tikka",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb marinated in a special recipe and barbecued in the clay oven",
-                "itemPrice": "4.50"
+                "description": "Lamb marinated in a special recipe and barbecued in the clay oven",
+                "price": "4.50"
             },
             {
-                "itemName": "Shiek Kebab",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Shiek Kebab",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb mince with onion special herbs and spices",
-                "itemPrice": "4.50"
+                "description": "Lamb mince with onion special herbs and spices",
+                "price": "4.50"
             },
             {
-                "itemName": "Shami Kebab",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Shami Kebab",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Minced lamb cooked with Kashmiri spices patties",
-                "itemPrice": "4.50"
+                "description": "Minced lamb cooked with Kashmiri spices patties",
+                "price": "4.50"
             },
             {
-                "itemName": "Chicken Pakora",
-                "itemAllergenInfo": [
+                "name": "Chicken Pakora",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Spiced chicken with gram flour and herbs, deep fried in ghee",
-                "itemPrice": "4.50"
+                "description": "Spiced chicken with gram flour and herbs, deep fried in ghee",
+                "price": "4.50"
             },
             {
-                "itemName": "Garlic Chicken Tikka",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Garlic Chicken Tikka",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken marinated in garlic, green chillies, fresh coriander, cooked in clay oven and served with salad",
-                "itemPrice": "4.60"
+                "description": "Chicken marinated in garlic, green chillies, fresh coriander, cooked in clay oven and served with salad",
+                "price": "4.60"
             },
             {
-                "itemName": "Chicken Momo",
-                "itemAllergenInfo": [
+                "name": "Chicken Momo",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Fresh homemade chicken minced steamed Momo / dumplings (contains sesame seeds) served with chef&quot;s special sauce",
-                "itemPrice": "5.50"
+                "description": "Fresh homemade chicken minced steamed Momo / dumplings (contains sesame seeds) served with chef&quot;s special sauce",
+                "price": "5.50"
             },
             {
-                "itemName": "Vegetable Momo",
-                "itemAllergenInfo": [
+                "name": "Vegetable Momo",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Fresh homemade vegetable minced steamed Momo / dumplings (contains sesame seeds) served with chef&quot;s special sauce",
-                "itemPrice": "5.50"
+                "description": "Fresh homemade vegetable minced steamed Momo / dumplings (contains sesame seeds) served with chef&quot;s special sauce",
+                "price": "5.50"
             },
             {
-                "itemName": "Chilli Chicken",
-                "itemAllergenInfo": [
+                "name": "Chilli Chicken",
+                "allergenInfo": [
                 "Gluten",
                 "Soya"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken pieces deep fried and tossed up with chillies, peppers and onion",
-                "itemPrice": "4.50"
+                "description": "Chicken pieces deep fried and tossed up with chillies, peppers and onion",
+                "price": "4.50"
             },
             {
-                "itemName": "Paneer Tikka",
-                "itemAllergenInfo": [
+                "name": "Paneer Tikka",
+                "allergenInfo": [
                 "Gluten"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Cottage cheese cubes marinated with yogurt, peppers and picking spice",
-                "itemPrice": "4.50"
+                "description": "Cottage cheese cubes marinated with yogurt, peppers and picking spice",
+                "price": "4.50"
             }
             ]
         },
         {
-            "sectionName": "Tandoori Dishes",
-            "sectionDescription": "The following dishes are served with salad and mint sauce",
-            "sectionItems": [
+            "name": "Tandoori Dishes",
+            "description": "The following dishes are served with salad and mint sauce",
+            "items": [
             {
-                "itemName": "Chicken Tikka",
-                "itemAllergenInfo": [
+                "name": "Chicken Tikka",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Grilled Chicken marinated with yoghurt, mint, tandoori paste and Kashmiri masala with herbs",
-                "itemPrice": "8.95"
+                "description": "Grilled Chicken marinated with yoghurt, mint, tandoori paste and Kashmiri masala with herbs",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka",
-                "itemAllergenInfo": [
+                "name": "Lamb Tikka",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Grilled Lamb marinated with yoghurt, mint, tandoori paste and Kashmiri masala with herbs",
-                "itemPrice": "8.95"
+                "description": "Grilled Lamb marinated with yoghurt, mint, tandoori paste and Kashmiri masala with herbs",
+                "price": "8.95"
             },
             {
-                "itemName": "Paneer Tikka",
-                "itemAllergenInfo": [
+                "name": "Paneer Tikka",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Grilled Paneer marinated with yoghurt, mint, tandoori paste and Kashmiri masala with herbs",
-                "itemPrice": "8.95"
+                "description": "Grilled Paneer marinated with yoghurt, mint, tandoori paste and Kashmiri masala with herbs",
+                "price": "8.95"
             },
             {
-                "itemName": "Tandoor Chicken",
-                "itemAllergenInfo": [
+                "name": "Tandoor Chicken",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Spring chicken marinated in special recipe and barbecued in the clay oven",
-                "itemPrice": "8.95"
+                "description": "Spring chicken marinated in special recipe and barbecued in the clay oven",
+                "price": "8.95"
             },
             {
-                "itemName": "Chicken Shaslik",
-                "itemAllergenInfo": [
+                "name": "Chicken Shaslik",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Pieces of Chicken marinated and barbecued in the clay oven with tomato, onion and capsicum",
-                "itemPrice": "8.95"
+                "description": "Pieces of Chicken marinated and barbecued in the clay oven with tomato, onion and capsicum",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Shaslik",
-                "itemAllergenInfo": [
+                "name": "Lamb Shaslik",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Pieces of Lamb marinated and barbecued in the clay oven with tomato, onion and capsicum",
-                "itemPrice": "8.95"
+                "description": "Pieces of Lamb marinated and barbecued in the clay oven with tomato, onion and capsicum",
+                "price": "8.95"
             },
             {
-                "itemName": "Paneer Shaslik",
-                "itemAllergenInfo": [
+                "name": "Paneer Shaslik",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Pieces of Paneer marinated and barbecued in the clay oven with tomato, onion and capsicum",
-                "itemPrice": "8.95"
+                "description": "Pieces of Paneer marinated and barbecued in the clay oven with tomato, onion and capsicum",
+                "price": "8.95"
             },
             {
-                "itemName": "Tandoori Mixed Grill",
-                "itemAllergenInfo": [
+                "name": "Tandoori Mixed Grill",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Tandoori chicken, lamb tikka, chicken tikka, sheik kebab and plain naan",
-                "itemPrice": "11.95"
+                "description": "Tandoori chicken, lamb tikka, chicken tikka, sheik kebab and plain naan",
+                "price": "11.95"
             },
             {
-                "itemName": "Garlic Chicken Tikka",
-                "itemAllergenInfo": [
+                "name": "Garlic Chicken Tikka",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken marinated in garlic green chillies, fresh coriander, cooked in the clay oven and served with salad",
-                "itemPrice": "8.95"
+                "description": "Chicken marinated in garlic green chillies, fresh coriander, cooked in the clay oven and served with salad",
+                "price": "8.95"
             }
             ]
         },
         {
-            "sectionName": "Everest Specials",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Everest Specials",
+            "description": "",
+            "items": [
             {
-                "itemName": "Mix Bhuna Nawabi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Mix Bhuna Nawabi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Tender pieces of chicken, lamb and minced meat in medium Bhuna sauce",
-                "itemPrice": "9.95"
+                "description": "Tender pieces of chicken, lamb and minced meat in medium Bhuna sauce",
+                "price": "9.95"
             },
             {
-                "itemName": "Murghi Masala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Murghi Masala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "On the bone spring chicken, marinated and grilled in clay oven cooked in medium chef special sauce with fresh spring onion",
-                "itemPrice": "9.95"
+                "description": "On the bone spring chicken, marinated and grilled in clay oven cooked in medium chef special sauce with fresh spring onion",
+                "price": "9.95"
             },
             {
-                "itemName": "Shaslik Bhuna Chicken",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Shaslik Bhuna Chicken",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Grilled chicken Tikka cooked with onion pepper and tomato in a medium sauce",
-                "itemPrice": "9.95"
+                "description": "Grilled chicken Tikka cooked with onion pepper and tomato in a medium sauce",
+                "price": "9.95"
             },
             {
-                "itemName": "Shaslik Bhuna Lamb",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Shaslik Bhuna Lamb",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Grilled lamb Tikka cooked with onion pepper and tomato in a medium sauce",
-                "itemPrice": "9.95"
+                "description": "Grilled lamb Tikka cooked with onion pepper and tomato in a medium sauce",
+                "price": "9.95"
             },
             {
-                "itemName": "Salmon Palak",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Salmon Palak",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Cooked with fresh spinach, garlic, tomato and coriander in a medium sauce",
-                "itemPrice": "10.95"
+                "description": "Cooked with fresh spinach, garlic, tomato and coriander in a medium sauce",
+                "price": "10.95"
             },
             {
-                "itemName": "Salmon Chilli Karahi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Salmon Chilli Karahi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Cooked with fresh ginger, green chilli pepper spring onion and coriander in a medium hot sauce",
-                "itemPrice": "10.95"
+                "description": "Cooked with fresh ginger, green chilli pepper spring onion and coriander in a medium hot sauce",
+                "price": "10.95"
             },
             {
-                "itemName": "King Prawn Goa",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Goa",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "King prawn, mild in a special cooked original recipe from Goa",
-                "itemPrice": "14.95"
+                "description": "King prawn, mild in a special cooked original recipe from Goa",
+                "price": "14.95"
             },
             {
-                "itemName": "Rosni Bahar Chicken",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Rosni Bahar Chicken",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Cooked with fresh garlic chunk onion in pepper in thick medium sauce",
-                "itemPrice": "9.95"
+                "description": "Cooked with fresh garlic chunk onion in pepper in thick medium sauce",
+                "price": "9.95"
             },
             {
-                "itemName": "Rosni Bahar Lamb",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Rosni Bahar Lamb",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Cooked with fresh garlic chunk onion in pepper in thick medium sauce",
-                "itemPrice": "9.95"
+                "description": "Cooked with fresh garlic chunk onion in pepper in thick medium sauce",
+                "price": "9.95"
             },
             {
-                "itemName": "Lahori Fish",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lahori Fish",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Sweet water fish cooked with fresh garlic, ginger, spring onion in a medium bhuna sauce",
-                "itemPrice": "10.95"
+                "description": "Sweet water fish cooked with fresh garlic, ginger, spring onion in a medium bhuna sauce",
+                "price": "10.95"
             }
             ]
         },
         {
-            "sectionName": "Biryani Dishes",
-            "sectionDescription": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
-            "sectionItems": [
+            "name": "Biryani Dishes",
+            "description": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
+            "items": [
             {
-                "itemName": "Chicken Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Chicken Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb  Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Lamb  Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "King Prawn Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "name": "King Prawn Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "9.95"
+                "name": "Chicken Tikka Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "9.95"
             },
             {
-                "itemName": "Lamb Tikka Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "9.95"
+                "name": "Lamb Tikka Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "9.95"
             },
             {
-                "itemName": "Vegetable Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "name": "Vegetable Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Special Mixed Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "10.95"
+                "name": "Special Mixed Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "10.95"
             }
             ]
         },
         {
-            "sectionName": "Biryani Dishes",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Biryani Dishes",
+            "description": "",
+            "items": [
             {
-                "itemName": "Biryani",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
-                "itemPrice": "",
+                "name": "Biryani",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
+                "price": "",
                 "itemVariants": [
                     {
-                        "itemName": "Chicken",
-                        "itemPrice": "8.95"
+                        "name": "Chicken",
+                        "price": "8.95"
                     },
                     {
-                        "itemName": "Lamb",
-                        "itemPrice": "8.95"
+                        "name": "Lamb",
+                        "price": "8.95"
                     },
                     {
-                        "itemName": "King Prawn",
-                        "itemPrice": "13.95"
+                        "name": "King Prawn",
+                        "price": "13.95"
                     },
                     {
-                        "itemName": "Chicken Tikka",
-                        "itemPrice": "9.95"
+                        "name": "Chicken Tikka",
+                        "price": "9.95"
                     },
                     {
-                        "itemName": "Lamb Tikka",
-                        "itemPrice": "9.95"
+                        "name": "Lamb Tikka",
+                        "price": "9.95"
                     },
                     {
-                        "itemName": "Vegetable",
-                        "itemPrice": "7.95"
+                        "name": "Vegetable",
+                        "price": "7.95"
                     },
                     {
-                        "itemName": "Special Mixed",
-                        "itemDescription": "With Chicken, Lamb & Prawn",
-                        "itemPrice": "10.95"
+                        "name": "Special Mixed",
+                        "description": "With Chicken, Lamb & Prawn",
+                        "price": "10.95"
                     }
                 ]
             }]
         },
         {
-            "sectionName": "Side Dishes",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Side Dishes",
+            "description": "",
+            "items": [
             {
-                "itemName": "Mushroom Bhaji",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.95"
+                "name": "Mushroom Bhaji",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.95"
             },
             {
-                "itemName": "Sag Bhaji",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Spinach",
-                "itemPrice": "3.95"
+                "name": "Sag Bhaji",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Spinach",
+                "price": "3.95"
             },
             {
-                "itemName": "Bombay Aloo",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Spicy potatoes",
-                "itemPrice": "3.95"
+                "name": "Bombay Aloo",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Spicy potatoes",
+                "price": "3.95"
             },
             {
-                "itemName": "Sag Aloo",
-                "itemAllergenInfo": [
+                "name": "Sag Aloo",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Spinach and potatoes",
-                "itemPrice": "3.95"
+                "spiceInfo": [],
+                "description": "Spinach and potatoes",
+                "price": "3.95"
             },
             {
-                "itemName": "Chana Masala",
-                "itemAllergenInfo": [
+                "name": "Chana Masala",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Chickpeas",
-                "itemPrice": "3.95"
+                "spiceInfo": [],
+                "description": "Chickpeas",
+                "price": "3.95"
             },
             {
-                "itemName": "Tarka Dall",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Lentils",
-                "itemPrice": "3.95"
+                "name": "Tarka Dall",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Lentils",
+                "price": "3.95"
             },
             {
-                "itemName": "Sag Paneer",
-                "itemAllergenInfo": [
+                "name": "Sag Paneer",
+                "allergenInfo": [
                 "Milk",
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Spinach with cheese",
-                "itemPrice": "3.95"
+                "spiceInfo": [],
+                "description": "Spinach with cheese",
+                "price": "3.95"
             },
             {
-                "itemName": "Sag Dall",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Spinach with lentils",
-                "itemPrice": "3.95"
+                "name": "Sag Dall",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Spinach with lentils",
+                "price": "3.95"
             }
             ]
         },
         {
-            "sectionName": "Chef&quot;s Specialities",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Chef&quot;s Specialities",
+            "description": "",
+            "items": [
             {
-                "itemName": "Chicken Tandoori Butter",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tandoori Butter",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken cooked with butter and fresh cream in a thick mild sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with butter and fresh cream in a thick mild sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Tandoori Butter",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tandoori Butter",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb cooked with butter and fresh cream in a thick mild sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with butter and fresh cream in a thick mild sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Tandoori Butter",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Tandoori Butter",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "King Prawns cooked with butter and fresh cream in a thick mild sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with butter and fresh cream in a thick mild sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Tandoori Butter",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Tandoori Butter",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken Tikka cooked with butter and fresh cream in a thick mild sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with butter and fresh cream in a thick mild sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Tandoori Butter",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Tandoori Butter",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb Tikka cooked with butter and fresh cream in a thick mild sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with butter and fresh cream in a thick mild sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Tandoori Butter",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Tandoori Butter",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Vegetables cooked with butter and fresh cream in a thick mild sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with butter and fresh cream in a thick mild sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Passanda",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Passanda",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Passanda",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Passanda",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Passanda",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Passanda",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "King Prawns cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Passanda",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Passanda",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken Tikka cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Passanda",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Passanda",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb Tikka cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Passanda",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Passanda",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Vegetables cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with yoghurt, ground almonds and coconut in aromatic mild sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Massala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Massala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken cooked with almonds and coconuts in a aromatic mild sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with almonds and coconuts in a aromatic mild sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Massala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Massala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb cooked with almonds and coconuts in a aromatic mild sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with almonds and coconuts in a aromatic mild sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Massala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Massala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "King Prawns cooked with almonds and coconuts in a aromatic mild sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with almonds and coconuts in a aromatic mild sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Massala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Massala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken Tikka cooked with almonds and coconuts in a aromatic mild sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with almonds and coconuts in a aromatic mild sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Massala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Massala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb Tikka cooked with almonds and coconuts in a aromatic mild sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with almonds and coconuts in a aromatic mild sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Massala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Massala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Vegetables cooked with almonds and coconuts in a aromatic mild sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with almonds and coconuts in a aromatic mild sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Karahi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Karahi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with onions, peppers tomatoes and ginger in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Karahi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Karahi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with onions, peppers tomatoes and ginger in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Karahi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Karahi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "King Prawns cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with onions, peppers tomatoes and ginger in a medium sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Karahi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Karahi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken Tikka cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with onions, peppers tomatoes and ginger in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Karahi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Karahi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb Tikka cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with onions, peppers tomatoes and ginger in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Karahi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Karahi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Vegetables cooked with onions, peppers tomatoes and ginger in a medium sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with onions, peppers tomatoes and ginger in a medium sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Rezzala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Rezzala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Rezzala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Rezzala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Rezzala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Rezzala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "King Prawns cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Rezzala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Rezzala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Chicken Tikka cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Rezzala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Rezzala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Lamb Tikka cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Rezzala",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Rezzala",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "Vegetables cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with yoghurt onions and fresh green chillies in a medium hot sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Garlic Chilli",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Garlic Chilli",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Garlic Chilli",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Garlic Chilli",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Garlic Chilli",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Garlic Chilli",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "King Prawns cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Garlic Chilli",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Garlic Chilli",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken Tikka cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Garlic Chilli",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Garlic Chilli",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb Tikka cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Garlic Chilli",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Garlic Chilli",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Vegetables cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with slice of garlic and fresh green chillies in a thick fairly hot sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Jalferazi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Jalferazi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with onions peppers and fresh green chillies in a fairly hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Jalferazi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Jalferazi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with onions peppers and fresh green chillies in a fairly hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Jalferazi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Jalferazi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "King Prawns cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with onions peppers and fresh green chillies in a fairly hot sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Jalferazi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Jalferazi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken Tikka cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with onions peppers and fresh green chillies in a fairly hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Jalferazi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Jalferazi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb Tikka cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with onions peppers and fresh green chillies in a fairly hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Jalferazi",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Jalferazi",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Vegetables cooked with onions peppers and fresh green chillies in a fairly hot sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with onions peppers and fresh green chillies in a fairly hot sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Jaipuri",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Jaipuri",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with mushrooms, peppers, and spring onions in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Jaipuri",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Jaipuri",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with mushrooms, peppers, and spring onions in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Jaipuri",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Jaipuri",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "King Prawns cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with mushrooms, peppers, and spring onions in a medium sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Jaipuri",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Jaipuri",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken Tikka cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with mushrooms, peppers, and spring onions in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Jaipuri",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Jaipuri",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb Tikka cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with mushrooms, peppers, and spring onions in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Jaipuri",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Jaipuri",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Vegetables cooked with mushrooms, peppers, and spring onions in a medium sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with mushrooms, peppers, and spring onions in a medium sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Nihari",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Nihari",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Nihari",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Nihari",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Nihari",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Nihari",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "King Prawns cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Nihari",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Nihari",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken Tikka cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Nihari",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Nihari",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb Tikka cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Nihari",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Nihari",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Vegetables cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with succulent pieces of meat, infused with ginger and coriander in a medium sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Burkani",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Burkani",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Burkani",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Burkani",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Burkani",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Burkani",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "King Prawns cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Burkani",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Burkani",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken Tikka cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Burkani",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Burkani",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb Tikka cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Burkani",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Burkani",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Vegetables cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked in a home style with ginger, garlic, chillies and finished with coriander in a hot sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Hara",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Hara",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Hara",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Hara",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Hara",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Hara",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "King Prawns cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Hara",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Hara",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken Tikka cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Hara",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Hara",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb Tikka cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Hara",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Hara",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Vegetables cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with tamarind, red chillies and very special spice in a sweet and sour sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Pudina",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Pudina",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Pudina",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Pudina",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Pudina",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Pudina",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "King Prawns cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Pudina",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Pudina",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Chicken Tikka cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Pudina",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Pudina",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Lamb Tikka cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Pudina",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Pudina",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "Vegetables cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked with mint, mango chutney, red chillies, spring onion and special spice in a medium sauce",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Naga",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Naga",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken cooked in bhuna style with very hot sauce",
-                "itemPrice": "8.25"
+                "description": "Chicken cooked in bhuna style with very hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Naga",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Naga",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb cooked in bhuna style with very hot sauce",
-                "itemPrice": "8.25"
+                "description": "Lamb cooked in bhuna style with very hot sauce",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawns Naga",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawns Naga",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "King Prawns cooked in bhuna style with very hot sauce",
-                "itemPrice": "13.95"
+                "description": "King Prawns cooked in bhuna style with very hot sauce",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Naga",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Naga",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Chicken Tikka cooked in bhuna style with very hot sauce",
-                "itemPrice": "8.95"
+                "description": "Chicken Tikka cooked in bhuna style with very hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Naga",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Naga",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Lamb Tikka cooked in bhuna style with very hot sauce",
-                "itemPrice": "8.95"
+                "description": "Lamb Tikka cooked in bhuna style with very hot sauce",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Naga",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Naga",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "Vegetables cooked in bhuna style with very hot sauce",
-                "itemPrice": "7.95"
+                "description": "Vegetables cooked in bhuna style with very hot sauce",
+                "price": "7.95"
             }
             ]
         },
         {
-            "sectionName": "Traditional Dishes",
-            "sectionDescription": "<ul class=\"section-descripton\"><li>Curry: The medium strength and favourite dish of all time</li>            <li>Madras: A popular dish prepared with chilli and lemon juice</li>            <li>Vindaloo: A hot taste, red peppers, potato, lemon and dozens of spices added to qualify this dish as a most extravagantly hot dish</li>            <li>Korma: A very mild dish cooked in coconut, almond, cream and special korma sauce</li>            <li>Bhuna: Thoroughly garnished dish cooked with onion, capsicum, tomatoes, medium spiced (thick sauce)</li>            <li>Ceylon: Cooked with fairly hot spices and coconut</li>            <li>Dopiaza: Cooked with chopped onions and seasoned with fresh herbs</li>            <li>Rogan Josh: Medium strength spiced and garnished with tomatoes, onions and spice</li>             <li>Saag: Cooked with fresh spinach and a tough of garlic and herbs</li>            <li>Dansak: Cooked with lentils, lemon juice and fresh spices, hot, sweet and sour</li>            <li>Pathia: Sweet and sour dish with onions, tomatoes and fresh spices</li></ul>",
-            "sectionItems": [
+            "name": "Traditional Dishes",
+            "description": "<ul class=\"section-descripton\"><li>Curry: The medium strength and favourite dish of all time</li>            <li>Madras: A popular dish prepared with chilli and lemon juice</li>            <li>Vindaloo: A hot taste, red peppers, potato, lemon and dozens of spices added to qualify this dish as a most extravagantly hot dish</li>            <li>Korma: A very mild dish cooked in coconut, almond, cream and special korma sauce</li>            <li>Bhuna: Thoroughly garnished dish cooked with onion, capsicum, tomatoes, medium spiced (thick sauce)</li>            <li>Ceylon: Cooked with fairly hot spices and coconut</li>            <li>Dopiaza: Cooked with chopped onions and seasoned with fresh herbs</li>            <li>Rogan Josh: Medium strength spiced and garnished with tomatoes, onions and spice</li>             <li>Saag: Cooked with fresh spinach and a tough of garlic and herbs</li>            <li>Dansak: Cooked with lentils, lemon juice and fresh spices, hot, sweet and sour</li>            <li>Pathia: Sweet and sour dish with onions, tomatoes and fresh spices</li></ul>",
+            "items": [
             {
-                "itemName": "Chicken Curry",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Curry",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Curry",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Curry",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Curry",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Curry",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Curry",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Curry",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Curry",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Curry",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Curry",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Curry",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Madras",
-                "itemAllergenInfo": [
+                "name": "Chicken Madras",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Madras",
-                "itemAllergenInfo": [
+                "name": "Lamb Madras",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Madras",
-                "itemAllergenInfo": [
+                "name": "King Prawn Madras",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Madras",
-                "itemAllergenInfo": [
+                "name": "Chicken Tikka Madras",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Madras",
-                "itemAllergenInfo": [
+                "name": "Lamb Tikka Madras",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Madras",
-                "itemAllergenInfo": [
+                "name": "Vegetable Madras",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Vindaloo",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Vindaloo",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Vindaloo",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Vindaloo",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Vindaloo",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Vindaloo",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Vindaloo",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Vindaloo",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Vindaloo",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Vindaloo",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Vindaloo",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Vindaloo",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Korma",
-                "itemAllergenInfo": [
+                "name": "Chicken Korma",
+                "allergenInfo": [
                 "Nuts",
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Korma",
-                "itemAllergenInfo": [
+                "name": "Lamb Korma",
+                "allergenInfo": [
                 "Nuts",
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Korma",
-                "itemAllergenInfo": [
+                "name": "King Prawn Korma",
+                "allergenInfo": [
                 "Nuts",
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Korma",
-                "itemAllergenInfo": [
+                "name": "Chicken Tikka Korma",
+                "allergenInfo": [
                 "Nuts",
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Korma",
-                "itemAllergenInfo": [
+                "name": "Lamb Tikka Korma",
+                "allergenInfo": [
                 "Nuts",
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Korma",
-                "itemAllergenInfo": [
+                "name": "Vegetable Korma",
+                "allergenInfo": [
                 "Nuts",
                 "Milk"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Mild"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Bhuna",
-                "itemAllergenInfo": [
+                "name": "Chicken Bhuna",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Bhuna",
-                "itemAllergenInfo": [
+                "name": "Lamb Bhuna",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Bhuna",
-                "itemAllergenInfo": [
+                "name": "King Prawn Bhuna",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Bhuna",
-                "itemAllergenInfo": [
+                "name": "Chicken Tikka Bhuna",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Bhuna",
-                "itemAllergenInfo": [
+                "name": "Lamb Tikka Bhuna",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Bhuna",
-                "itemAllergenInfo": [
+                "name": "Vegetable Bhuna",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Ceylon",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Ceylon",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Ceylon",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Ceylon",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Ceylon",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Ceylon",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Ceylon",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Ceylon",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Ceylon",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Ceylon",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Ceylon",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Ceylon",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Dopiaza",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Dopiaza",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Dopiaza",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Dopiaza",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Dopiaza",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Dopiaza",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Dopiaza",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Dopiaza",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Dopiaza",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Dopiaza",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Dopiaza",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Dopiaza",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Rogan Josh",
-                "itemAllergenInfo": [
+                "name": "Chicken Rogan Josh",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Rogan Josh",
-                "itemAllergenInfo": [
+                "name": "Lamb Rogan Josh",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Rogan Josh",
-                "itemAllergenInfo": [
+                "name": "King Prawn Rogan Josh",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Rogan Josh",
-                "itemAllergenInfo": [
+                "name": "Chicken Tikka Rogan Josh",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Rogan Josh",
-                "itemAllergenInfo": [
+                "name": "Lamb Tikka Rogan Josh",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Rogan Josh",
-                "itemAllergenInfo": [
+                "name": "Vegetable Rogan Josh",
+                "allergenInfo": [
                 "Celeriac"
                 ],
-                "itemSpiceInfo": [
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Saag",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Saag",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Saag",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Saag",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Saag",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Saag",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Saag",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Saag",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Saag",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Saag",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Saag",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Saag",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Dansak",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Dansak",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Dansak",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Dansak",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Dansak",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Dansak",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Dansak",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Dansak",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Dansak",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Dansak",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Dansak",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Dansak",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Pathia",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Pathia",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Pathia",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Pathia",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Pathia",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "King Prawn Pathia",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Pathia",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Chicken Tikka Pathia",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Pathia",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Lamb Tikka Pathia",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Pathia",
-                "itemAllergenInfo": [],
-                "itemSpiceInfo": [
+                "name": "Vegetable Pathia",
+                "allergenInfo": [],
+                "spiceInfo": [
                 "Mild",
                 "Hot"
                 ],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "multipleSpiceOptions": true,
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Balti",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "name": "Chicken Balti",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Balti",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "name": "Lamb Balti",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Balti",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "name": "King Prawn Balti",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Balti",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Chicken Tikka Balti",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Balti",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Lamb Tikka Balti",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Balti",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "name": "Vegetable Balti",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Bombay",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "name": "Chicken Bombay",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Bombay",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "name": "Lamb Bombay",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Bombay",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "name": "King Prawn Bombay",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Bombay",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Chicken Tikka Bombay",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Bombay",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Lamb Tikka Bombay",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Bombay",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "name": "Vegetable Bombay",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "7.95"
             },
             {
-                "itemName": "Chicken Honey",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "name": "Chicken Honey",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "Lamb Honey",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.25"
+                "name": "Lamb Honey",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.25"
             },
             {
-                "itemName": "King Prawn Honey",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "13.95"
+                "name": "King Prawn Honey",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "13.95"
             },
             {
-                "itemName": "Chicken Tikka Honey",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Chicken Tikka Honey",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Lamb Tikka Honey",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "8.95"
+                "name": "Lamb Tikka Honey",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "8.95"
             },
             {
-                "itemName": "Vegetable Honey",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "7.95"
+                "name": "Vegetable Honey",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "7.95"
             }
             ]
         },
         {
-            "sectionName": "Desserts",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Desserts",
+            "description": "",
+            "items": [
             {
-                "itemName": "Handmade Carrot Cake",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "4.49"
+                "name": "Handmade Carrot Cake",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "4.49"
             },
             {
-                "itemName": "Chocolate Fudge Cake",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "4.49"
+                "name": "Chocolate Fudge Cake",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "4.49"
             },
             {
-                "itemName": "Sticky Chocolate & Orange Cake",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "4.49"
+                "name": "Sticky Chocolate & Orange Cake",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "4.49"
             },
             {
-                "itemName": "Ben & Jerry 500ML",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "6.99"
+                "name": "Ben & Jerry 500ML",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "6.99"
             }
             ]
         },
         {
-            "sectionName": "Tandoori Bread",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Tandoori Bread",
+            "description": "",
+            "items": [
             {
-                "itemName": "Plain Naan",
-                "itemAllergenInfo": [
+                "name": "Plain Naan",
+                "allergenInfo": [
                 "Gluten",
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Plain leavened bread",
-                "itemPrice": "2.80"
+                "spiceInfo": [],
+                "description": "Plain leavened bread",
+                "price": "2.80"
             },
             {
-                "itemName": "Keema Naan",
-                "itemAllergenInfo": [
+                "name": "Keema Naan",
+                "allergenInfo": [
                 "Gluten",
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Spicy minced lamb",
-                "itemPrice": "3.20"
+                "spiceInfo": [],
+                "description": "Spicy minced lamb",
+                "price": "3.20"
             },
             {
-                "itemName": "Peshawar Naan",
-                "itemAllergenInfo": [
+                "name": "Peshawar Naan",
+                "allergenInfo": [
                 "Gluten",
                 "Nuts",
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Coconut and almond",
-                "itemPrice": "3.20"
+                "spiceInfo": [],
+                "description": "Coconut and almond",
+                "price": "3.20"
             },
             {
-                "itemName": "Garlic Naan",
-                "itemAllergenInfo": [
+                "name": "Garlic Naan",
+                "allergenInfo": [
                 "Gluten",
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Garlic and coriander",
-                "itemPrice": "3.20"
+                "spiceInfo": [],
+                "description": "Garlic and coriander",
+                "price": "3.20"
             },
             {
-                "itemName": "Kulsa Naan",
-                "itemAllergenInfo": [
+                "name": "Kulsa Naan",
+                "allergenInfo": [
                 "Gluten",
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Onion and coriander",
-                "itemPrice": "3.20"
+                "spiceInfo": [],
+                "description": "Onion and coriander",
+                "price": "3.20"
             },
             {
-                "itemName": "Cheese Naan",
-                "itemAllergenInfo": [
+                "name": "Cheese Naan",
+                "allergenInfo": [
                 "Gluten",
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.20"
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.20"
             },
             {
-                "itemName": "Tandoori Roti",
-                "itemAllergenInfo": [
+                "name": "Tandoori Roti",
+                "allergenInfo": [
                 "Gluten"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.20"
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.20"
             },
             {
-                "itemName": "Paratha",
-                "itemAllergenInfo": [
+                "name": "Paratha",
+                "allergenInfo": [
                 "Gluten",
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "Butter Fried Layer Bread",
-                "itemPrice": "2.80"
+                "spiceInfo": [],
+                "description": "Butter Fried Layer Bread",
+                "price": "2.80"
             },
             {
-                "itemName": "Chapati",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "2.75"
+                "name": "Chapati",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "2.75"
             },
             {
-                "itemName": "Chips",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "2.50"
+                "name": "Chips",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "2.50"
             }
             ]
         },
         {
-            "sectionName": "Rice",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Rice",
+            "description": "",
+            "items": [
             {
-                "itemName": "Plain Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Boiled rice",
-                "itemPrice": "2.80"
+                "name": "Plain Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Boiled rice",
+                "price": "2.80"
             },
             {
-                "itemName": "Pilau Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Basmati rice",
-                "itemPrice": "2.95"
+                "name": "Pilau Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Basmati rice",
+                "price": "2.95"
             },
             {
-                "itemName": "Special Fried Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Cooked with eggs and peas",
-                "itemPrice": "3.50"
+                "name": "Special Fried Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Cooked with eggs and peas",
+                "price": "3.50"
             },
             {
-                "itemName": "Coconut Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.50"
+                "name": "Coconut Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.50"
             },
             {
-                "itemName": "Mushroom Rice / Vegetable Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.50"
+                "name": "Mushroom Rice / Vegetable Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.50"
             },
             {
-                "itemName": "Egg Fried Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.50"
+                "name": "Egg Fried Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.50"
             },
             {
-                "itemName": "Keema Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Minced lamb",
-                "itemPrice": "3.50"
+                "name": "Keema Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Minced lamb",
+                "price": "3.50"
             },
             {
-                "itemName": "Lemon Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.50"
+                "name": "Lemon Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.50"
             },
             {
-                "itemName": "Garlic Rice",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "3.50"
+                "name": "Garlic Rice",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "3.50"
             }
             ]
         },
         {
-            "sectionName": "Poppadom & Pickle",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Poppadom & Pickle",
+            "description": "",
+            "items": [
             {
-                "itemName": "Poppadom",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Plain and spicy",
-                "itemPrice": "1.00"
+                "name": "Poppadom",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Plain and spicy",
+                "price": "1.00"
             },
             {
-                "itemName": "Raitha",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Onion or cucumber, yoghurt and black salt",
-                "itemPrice": "1.40"
+                "name": "Raitha",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Onion or cucumber, yoghurt and black salt",
+                "price": "1.40"
             },
             {
-                "itemName": "Lime Pickle",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "0.80"
+                "name": "Lime Pickle",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "0.80"
             },
             {
-                "itemName": "Mango Pickle",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "0.80"
+                "name": "Mango Pickle",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "0.80"
             },
             {
-                "itemName": "Mint Yogurt Sauce",
-                "itemAllergenInfo": [
+                "name": "Mint Yogurt Sauce",
+                "allergenInfo": [
                 "Milk"
                 ],
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "0.80"
+                "spiceInfo": [],
+                "description": "",
+                "price": "0.80"
             },
             {
-                "itemName": "Onion Salad",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "0.80"
+                "name": "Onion Salad",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "0.80"
             }
             ]
         },
         {
-            "sectionName": "Drinks",
-            "sectionDescription": "",
-            "sectionItems": [
+            "name": "Drinks",
+            "description": "",
+            "items": [
             {
-                "itemName": "Can",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Coke / Diet Coke / Orange Fanta / 7up",
-                "itemPrice": "1.00"
+                "name": "Can",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Coke / Diet Coke / Orange Fanta / 7up",
+                "price": "1.00"
             },
             {
-                "itemName": "Bottle 1.5L",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "Coke / Diet Coke",
-                "itemPrice": "2.50"
+                "name": "Bottle 1.5L",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "Coke / Diet Coke",
+                "price": "2.50"
             }
             ]
         },
         {
-            "sectionName": "Set Meals",
-            "sectionDescription": "Starters: Chicken Tikka, Onion Bhaji & Poppadom<br />Main Course: Chicken Tikka Masala, Lamb Madras, Sag Aloo, Boiled Rice & Naan",
-            "sectionItems": [
+            "name": "Set Meals",
+            "description": "Starters: Chicken Tikka, Onion Bhaji & Poppadom<br />Main Course: Chicken Tikka Masala, Lamb Madras, Sag Aloo, Boiled Rice & Naan",
+            "items": [
             {
-                "itemName": "Set Meal For Two",
-                "itemAllergenInfo": "",
-                "itemSpiceInfo": [],
-                "itemDescription": "",
-                "itemPrice": "29.95"
+                "name": "Set Meal For Two",
+                "allergenInfo": "",
+                "spiceInfo": [],
+                "description": "",
+                "price": "29.95"
             }
             ]
         }
         ]}';
 
-    function getAllergenAndSpiceInfo($items) {
-        $spiceRange = ["Mild", "Medium", "Hot"];
-        $hasMultipleSpice = false;
+    function getAllergenAndSpiceInfo($items, $multipleSpiceOptions = false) {
         $allergenAndSpiceInfo = "";
         if (is_array($items)) {
             foreach ($items as $item) {
                 $allergenAndSpiceItem = strtolower($item);
 
-                if(in_array($allergenAndSpiceItem, $spiceRange)) {
-                    $hasMultipleSpice = true;
-                }
-
                 $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
                 
-                echo $allergenAndSpiceItem . "&nbsp ".$hasMultipleSpice;
-                
-                if($hasMultipleSpice) {
+                if($multipleSpiceOptions) {
                     $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
                 }
             }
@@ -2445,32 +2457,32 @@
                                 }
                     ?>
                                     <div class="menuBlock">
-                                        <h2><?php echo $section->sectionName; ?></h2>
-                                        <p><?php echo $section->sectionDescription; ?></p>
+                                        <h2><?php echo $section->name; ?></h2>
+                                        <p><?php echo $section->description; ?></p>
                                         <ul class="row">
                                             <li class="col-12">
                                                 <?php
-                                                    foreach ($section->sectionItems as $items) {
+                                                    foreach ($section->items as $items) {
                                                 ?>
                                                         <div class="menuItem">
                                                             <h4>
-                                                                <?php echo $items->itemName; ?>
+                                                                <?php echo $items->name; ?>
                                                                 &nbsp;
                                                                 <?php
-                                                                    if ($items->itemAllergenInfo) {
-                                                                        echo getAllergenAndSpiceInfo($items->itemAllergenInfo);
+                                                                    if ($items->allergenInfo) {
+                                                                        echo getAllergenAndSpiceInfo($items->allergenInfo);
                                                                     }
-                                                                    if ($items->itemSpiceInfo) {
-                                                                        echo getAllergenAndSpiceInfo($items->itemSpiceInfo);
+                                                                    if ($items->spiceInfo) {
+                                                                        echo getAllergenAndSpiceInfo($items->spiceInfo, $items->multipleSpiceOptions);
                                                                     }
                                                                 ?>
                                                             </h4>
                                                             <?php
-                                                                    if ($items->itemDescription) {
-                                                                        echo "<div class='menuDesc'>{$items->itemDescription}</div>";
+                                                                    if ($items->description) {
+                                                                        echo "<div class='menuDesc'>{$items->description}</div>";
                                                                     }
-                                                                    if ($items->itemPrice) {
-                                                                        echo "<div class='price'>{$items->itemPrice}</div>";
+                                                                    if ($items->price) {
+                                                                        echo "<div class='price'>{$items->price}</div>";
                                                                     }
                                                             ?>
                                                         </div>
