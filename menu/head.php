@@ -1518,7 +1518,11 @@
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
     }
 
-    .menu-variant {
+    .menuVariants {
+        border: 0px;
+        margin-bottom: 16px;
+    }
+    .variant-heading {
         margin: 32px auto;
     }
 

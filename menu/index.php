@@ -1762,7 +1762,7 @@
                                                 <?php
                                                     foreach ($section->items as $items) {
                                                 ?>
-                                                        <div class="menuItem">
+                                                        <div class="menuItem <?php if($items->variants) echo 'menuVariants'; ?>">
                                                             <h4>
                                                                 <?php echo $items->name; ?>
                                                                 &nbsp;
@@ -1791,7 +1791,7 @@
                                                 <?php
                                                         if (isset($items->variants)) {
                                                 ?>
-                                                            <h4 class="menu-variant">All Dishes available in:</h4>
+                                                            <h4 class="variant-heading">All Dishes available in:</h4>
                                                 <?php
                                                         foreach ($items->variants as $variants) {
                                                 ?>
