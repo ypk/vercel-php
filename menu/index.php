@@ -2387,14 +2387,17 @@
     function getAllergenAndSpiceInfo($items, $multipleSpiceOptions = false) {
         $allergenAndSpiceInfo = "";
         if (is_array($items)) {
+            $counter = 0;
+            $itemCount = count($items);
             foreach ($items as $item) {
                 $allergenAndSpiceItem = strtolower($item);
 
                 $allergenAndSpiceInfo .= "<span class='${allergenAndSpiceItem}'></span>";
                 
-                if($multipleSpiceOptions) {
+                if($multipleSpiceOptions && $itemCount > $counter) {
                     $allergenAndSpiceInfo .= "&nbsp;or&nbsp;";
                 }
+                $counter++;
             }
         }
         return $allergenAndSpiceInfo;
