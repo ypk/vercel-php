@@ -407,61 +407,6 @@
         },
         {
             "name": "Biryani Dishes",
-            "description": "Safran rice treated together with meat, chicken or prawns in butter, spices and herbs, served with vegetable curry or Raita",
-            "items": [
-            {
-                "name": "Chicken Biryani",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb  Biryani",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "King Prawn Biryani",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Biryani",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "9.95"
-            },
-            {
-                "name": "Lamb Tikka Biryani",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "9.95"
-            },
-            {
-                "name": "Vegetable Biryani",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Special Mixed Biryani",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "10.95"
-            }
-            ]
-        },
-        {
-            "name": "Biryani Dishes",
             "description": "",
             "items": [
             {
@@ -1282,184 +1227,39 @@
         },
         {
             "name": "Traditional Dishes",
-            "description": "<ul class=\"section-descripton\"><li>Curry: The medium strength and favourite dish of all time</li>            <li>Madras: A popular dish prepared with chilli and lemon juice</li>            <li>Vindaloo: A hot taste, red peppers, potato, lemon and dozens of spices added to qualify this dish as a most extravagantly hot dish</li>            <li>Korma: A very mild dish cooked in coconut, almond, cream and special korma sauce</li>            <li>Bhuna: Thoroughly garnished dish cooked with onion, capsicum, tomatoes, medium spiced (thick sauce)</li>            <li>Ceylon: Cooked with fairly hot spices and coconut</li>            <li>Dopiaza: Cooked with chopped onions and seasoned with fresh herbs</li>            <li>Rogan Josh: Medium strength spiced and garnished with tomatoes, onions and spice</li>             <li>Saag: Cooked with fresh spinach and a tough of garlic and herbs</li>            <li>Dansak: Cooked with lentils, lemon juice and fresh spices, hot, sweet and sour</li>            <li>Pathia: Sweet and sour dish with onions, tomatoes and fresh spices</li></ul>",
+            "description": "",
             "items": [
             {
-                "name": "Chicken Curry",
+                "name": "Curry",
                 "allergenInfo": [],
                 "spiceInfo": [
                 "Medium"
                 ],
-                "description": "",
-                "price": "8.25"
+                "description": "The medium strength and favourite dish of all time",
+                "price": ""
             },
             {
-                "name": "Lamb Curry",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Curry",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Curry",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Curry",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Curry",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Madras",
+                "name": "Madras",
                 "allergenInfo": [
                 "Celeriac"
                 ],
                 "spiceInfo": [
                 "Hot"
                 ],
-                "description": "",
-                "price": "8.25"
+                "description": "A popular dish prepared with chilli and lemon juice",
+                "price": ""
             },
             {
-                "name": "Lamb Madras",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Madras",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Madras",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Madras",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Madras",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Vindaloo",
+                "name": "Vindaloo",
                 "allergenInfo": [],
                 "spiceInfo": [
                 "Hot"
                 ],
-                "description": "",
-                "price": "8.25"
+                "description": "A hot taste, red peppers, potato, lemon and dozens of spices added to qualify this dish as a most extravagantly hot dish",
+                "price": ""
             },
             {
-                "name": "Lamb Vindaloo",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Vindaloo",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Vindaloo",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Vindaloo",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Vindaloo",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Hot"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Korma",
+                "name": "Korma",
                 "allergenInfo": [
                 "Nuts",
                 "Milk"
@@ -1467,632 +1267,128 @@
                 "spiceInfo": [
                 "Mild"
                 ],
-                "description": "",
-                "price": "8.25"
+                "description": "A very mild dish cooked in coconut, almond, cream and special korma sauce",
+                "price": ""
             },
             {
-                "name": "Lamb Korma",
-                "allergenInfo": [
-                "Nuts",
-                "Milk"
-                ],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Korma",
-                "allergenInfo": [
-                "Nuts",
-                "Milk"
-                ],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Korma",
-                "allergenInfo": [
-                "Nuts",
-                "Milk"
-                ],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Korma",
-                "allergenInfo": [
-                "Nuts",
-                "Milk"
-                ],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Korma",
-                "allergenInfo": [
-                "Nuts",
-                "Milk"
-                ],
-                "spiceInfo": [
-                "Mild"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Bhuna",
+                "name": "Bhuna",
                 "allergenInfo": [
                 "Celeriac"
                 ],
                 "spiceInfo": [
                 "Medium"
                 ],
-                "description": "",
-                "price": "8.25"
+                "description": "Thoroughly garnished dish cooked with onion, capsicum, tomatoes, medium spiced (thick sauce)",
+                "price": ""
             },
             {
-                "name": "Lamb Bhuna",
+                "name": "Ceylon",
+                "allergenInfo": [],
+                "spiceInfo": [
+                "Medium",
+                "Hot"
+                ],
+                "multipleSpiceOptions": true,
+                "description": "Cooked with fairly hot spices and coconut",
+                "price": ""
+            },
+            {
+                "name": "Dopiaza",
+                "allergenInfo": [],
+                "spiceInfo": [
+                "Medium"
+                ],
+                "description": "Cooked with chopped onions and seasoned with fresh herbs",
+                "price": ""
+            },
+            {
+                "name": "Rogan Josh",
                 "allergenInfo": [
                 "Celeriac"
                 ],
                 "spiceInfo": [
                 "Medium"
                 ],
-                "description": "",
-                "price": "8.25"
+                "description": "Medium strength spiced and garnished with tomatoes, onions and spice",
+                "price": ""
             },
             {
-                "name": "King Prawn Bhuna",
-                "allergenInfo": [
-                "Celeriac"
-                ],
+                "name": "Saag",
+                "allergenInfo": [],
                 "spiceInfo": [
                 "Medium"
                 ],
-                "description": "",
-                "price": "13.95"
+                "description": "Cooked with fresh spinach and a tough of garlic and herbs",
+                "price": ""
             },
             {
-                "name": "Chicken Tikka Bhuna",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Bhuna",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Bhuna",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Ceylon",
+                "name": "Dansak",
                 "allergenInfo": [],
                 "spiceInfo": [
                 "Medium",
                 "Hot"
                 ],
                 "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.25"
+                "description": "Cooked with lentils, lemon juice and fresh spices, hot, sweet and sour",
+                "price": ""
             },
             {
-                "name": "Lamb Ceylon",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Ceylon",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Ceylon",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Ceylon",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Ceylon",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Dopiaza",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Dopiaza",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Dopiaza",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Dopiaza",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Dopiaza",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Dopiaza",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Rogan Josh",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Rogan Josh",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Rogan Josh",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Rogan Josh",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Rogan Josh",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Rogan Josh",
-                "allergenInfo": [
-                "Celeriac"
-                ],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Saag",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Saag",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Saag",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Saag",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Saag",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Saag",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium"
-                ],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Dansak",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Dansak",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Dansak",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Dansak",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Dansak",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Dansak",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Medium",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Pathia",
+                "name": "Pathia",
                 "allergenInfo": [],
                 "spiceInfo": [
                 "Mild",
                 "Hot"
                 ],
                 "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.25"
+                "description": "Sweet and sour dish with onions, tomatoes and fresh spices",
+                "price": ""
             },
             {
-                "name": "Lamb Pathia",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Pathia",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Pathia",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Pathia",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Pathia",
-                "allergenInfo": [],
-                "spiceInfo": [
-                "Mild",
-                "Hot"
-                ],
-                "multipleSpiceOptions": true,
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Balti",
+                "name": "Balti",
                 "allergenInfo": "",
                 "spiceInfo": [],
                 "description": "",
                 "price": "8.25"
             },
             {
-                "name": "Lamb Balti",
+                "name": "Bombay",
                 "allergenInfo": "",
                 "spiceInfo": [],
                 "description": "",
-                "price": "8.25"
+                "price": ""
             },
             {
-                "name": "King Prawn Balti",
+                "name": "Honey",
                 "allergenInfo": "",
                 "spiceInfo": [],
                 "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Balti",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Balti",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Balti",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Bombay",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Bombay",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Bombay",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Bombay",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Bombay",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Bombay",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "7.95"
-            },
-            {
-                "name": "Chicken Honey",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "Lamb Honey",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.25"
-            },
-            {
-                "name": "King Prawn Honey",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "13.95"
-            },
-            {
-                "name": "Chicken Tikka Honey",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Lamb Tikka Honey",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "8.95"
-            },
-            {
-                "name": "Vegetable Honey",
-                "allergenInfo": "",
-                "spiceInfo": [],
-                "description": "",
-                "price": "7.95"
+                "price": "",
+                "variants": [
+                    {
+                        "name": "Chicken",
+                        "price": "8.25"
+                    },
+                    {
+                        "name": "Lamb",
+                        "price": "8.25"
+                    },
+                    {
+                        "name": "King Prawns",
+                        "price": "13.95"
+                    },
+                    {
+                        "name": "Chicken Tikka",
+                        "price": "8.95"
+                    },
+                    {
+                        "name": "Lamb Tikka",
+                        "price": "8.95"
+                    },
+                    {
+                        "name": "Vegetables",
+                        "price": "7.95"
+                    }
+                    ]
             }
             ]
         },
@@ -2494,7 +1790,10 @@
                                                         </div>
                                                 <?php
                                                         if (isset($items->variants)) {
-                                                            foreach ($items->variants as $variants) {
+                                                ?>
+                                                            <h4>All Dishes available in:</h4>
+                                                <?php
+                                                        foreach ($items->variants as $variants) {
                                                 ?>
                                                                 <div class="menuItem">
                                                                     <h4>
