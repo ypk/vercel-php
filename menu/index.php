@@ -513,33 +513,41 @@ $menu_json = '{
             "allergenInfo": [],
             "spiceInfo": ["Hot"],
             "description": "Cooked in bhuna style with very hot sauce",
-            "price": ""
-          }
-        ],
-        "variants": [
-          {
-            "name": "Chicken",
-            "price": "8.25"
-          },
-          {
-            "name": "Lamb",
-            "price": "8.25"
-          },
-          {
-            "name": "King Prawns",
-            "price": "13.95"
-          },
-          {
-            "name": "Chicken Tikka",
-            "price": "8.95"
-          },
-          {
-            "name": "Lamb Tikka",
-            "price": "8.95"
-          },
-          {
-            "name": "Vegetables",
-            "price": "7.95"
+            "price": "",
+            "variants": [
+                {
+                  "name": "Chicken",
+                  "price": "8.25"
+                },
+                {
+                  "name": "Lamb",
+                  "price": "8.25"
+                },
+                {
+                  "name": "King Prawns",
+                  "price": "13.95"
+                },
+                {
+                  "name": "Chicken Tikka",
+                  "price": "8.95"
+                },
+                {
+                  "name": "Lamb Tikka",
+                  "price": "8.95"
+                },
+                {
+                  "name": "Vegetables",
+                  "price": "7.95"
+                },
+                {
+                  "name": "Panner",
+                  "price": "£8.25"
+                },
+                {
+                  "name": "Prawns",
+                  "price": "7.95"
+                }
+              ]
           }
         ]
       },
@@ -670,6 +678,14 @@ $menu_json = '{
               },
               {
                 "name": "Vegetables",
+                "price": "7.95"
+              },
+              {
+                "name": "Panner",
+                "price": "£8.25"
+              },
+              {
+                "name": "Prawns",
                 "price": "7.95"
               }
             ]
